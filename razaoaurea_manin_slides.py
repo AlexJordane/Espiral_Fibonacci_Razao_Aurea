@@ -35,7 +35,7 @@ class RazaoAurea(Slide):
         mycolor = ManimColor('#071E25')
         self.camera.background_color = mycolor
         
-        img = ImageMobject('ifes.jpeg')
+        img = ImageMobject('../alexjordane.github.io/ifes.jpeg')
         img.scale(1)  
         img.shift(3.3 * DOWN + 5.6 * RIGHT)  
         self.add(img) 
